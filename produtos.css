@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.cabecalho{
+    background-color: #cccc;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cabecalho picture{
+    margin-left: 170px;
+}
+.cabecalho__menu{
+    display: flex;
+    align-items: center;
+    margin-left: 290px;
+}
+.cabecalho__menu ul{
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+}
+.cabecalho__menu li{
+    font-weight: bold;
+    margin-right: 20px;
+}
+.cabecalho__menu a{
+    text-decoration: none;
+    color: black;
+}
+.cabecalho__menu a:hover{
+    color: rgb(238, 237, 237);
+}
