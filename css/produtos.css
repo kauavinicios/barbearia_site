@@ -1,9 +1,5 @@
-body{
-    margin: 0;
-}
 .cabecalho{
-    background-color: #cccc;
-    width: 100%;
+    background-color: #bbbbbb;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -13,7 +9,7 @@ body{
 .cabecalho__menu{
     display: flex;
     align-items: center;
-    margin-left: 290px;
+    margin-left: 150px;
 }
 .cabecalho__menu ul{
     list-style: none;
@@ -26,6 +22,7 @@ body{
 }
 .cabecalho__menu a{
     text-decoration: none;
+    text-transform: uppercase;
     color: black;
 }
 .cabecalho__menu a:hover{
