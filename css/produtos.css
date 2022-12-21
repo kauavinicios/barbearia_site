@@ -3,31 +3,86 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .cabecalho picture{
     margin-left: 170px;
 }
+
 .cabecalho__menu{
     display: flex;
     align-items: center;
     margin-left: 150px;
 }
+
 .cabecalho__menu ul{
     list-style: none;
     font-size: 30px;
     display: flex;
 }
+
 .cabecalho__menu li{
     font-weight: bold;
     margin-right: 20px;
 }
+
 .cabecalho__menu a{
     text-decoration: none;
     text-transform: uppercase;
     color: black;
 }
+
 .cabecalho__menu a:hover{
-    color: rgb(238, 237, 237);
+    color: #c78c19;
+    text-decoration: underline;
 }
-.cards{
+
+.servicos__cards{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 18px;
+}
+
+.servicos__cards li{
     display: inline-block;
+    width: min-content;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.servicos__cards li:hover{
+    border-color: #c78c19;
+}
+
+.servicos__cards li:hover h2{
+    font-size: 32px;
+}
+
+.servicos__cards li:active{
+    border-color: #088C19;
+}
+
+.servicos__cards h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.servicos--precos{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.rodaPe{
+    text-align: center;
+    background: url("../imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.rodaPe__copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0;
 }
