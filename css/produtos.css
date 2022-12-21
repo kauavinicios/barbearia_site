@@ -28,3 +28,6 @@
 .cabecalho__menu a:hover{
     color: rgb(238, 237, 237);
 }
+.cards{
+    display: inline-block;
+}
