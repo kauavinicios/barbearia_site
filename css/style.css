@@ -1,33 +1,38 @@
-body{
-    margin: 0;
+body {
     text-align: center;
 }
-.banner img{
+
+.banner img {
     width: 100%;
 }
-.infomacaes{
+
+.infomacaes {
     background-color: #cccc;
     padding: 30px;
     position: relative;
     top: -0.3em;
 }
+
 h3{
     font-size: 24px;
 }
-.infomacaes--color{
+
+.infomacaes--color {
     color: red;
 }
 
-.infomacaes--size{
+.infomacaes--size {
     font-size: 20px;
 }
-.lista{
+
+.lista {
     text-align: left;
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-left: 15%;
 }
-.img-beneficios img{
+
+.img-beneficios img {
     width: 50%;
 }
