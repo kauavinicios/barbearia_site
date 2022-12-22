@@ -1,0 +1,49 @@
+.cabecalho{
+    background-color: #bbbbbb;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cabecalho picture{
+    margin-left: 170px;
+}
+
+.cabecalho__menu{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.cabecalho__menu ul{
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+}
+
+.cabecalho__menu li{
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.cabecalho__menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.cabecalho__menu a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.rodaPe{
+    text-align: center;
+    background: url("../imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.rodaPe__copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0;
+}
